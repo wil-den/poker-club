@@ -16,7 +16,9 @@ module.exports = {
   mode: 'development',
   entry:{
     client: {import: './src/client/index.tsx', filename: './[name].bundle.js' },
-    server: {import: './src/server/index.tsx', filename: './[name].bundle.js' }
+    server: {import: './src/server/index.tsx', filename: './[name].bundle.js' },
+    game : {import : './src/game/game.ts', filename: './[name].bundle.js' },
+    club : {import : './src/club/club.ts', filename: './[name].bundle.js' }
   } 
   ,
   devtool: 'inline-source-map',
