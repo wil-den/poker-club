@@ -1,1 +1,2 @@
+[![Board Status](https://dev.azure.com/qjegsmail/f36c720f-08c3-4051-914b-a485b59e9b4e/61eb9e67-3158-4395-bb4f-9c308dc37f0c/_apis/work/boardbadge/eb8fad97-5596-4f85-9ff9-6ad9962cd5a5)](https://dev.azure.com/qjegsmail/f36c720f-08c3-4051-914b-a485b59e9b4e/_boards/board/t/61eb9e67-3158-4395-bb4f-9c308dc37f0c/Microsoft.RequirementCategory)
 # poker-club
