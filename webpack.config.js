@@ -16,9 +16,10 @@ module.exports = {
   mode: 'development',
   entry:{
     client: {import: './src/client/index.tsx', filename: './[name].bundle.js' },
-    server: {import: './src/server/index.tsx', filename: './[name].bundle.js' },
-    game : {import : './src/game/game.ts', filename: './[name].bundle.js' },
-    club : {import : './src/club/club.ts', filename: './[name].bundle.js' }
+    server: {import: './src/server/index.ts', filename: './[name].bundle.js' }
+    // game : {import : './src/core/game/game.ts', filename: './[name].bundle.js' },
+    // club : {import : './src/core/club/club.ts', filename: './[name].bundle.js' },
+    // player : {import : './src/core/player/player.ts', filename: './[name].bundle.js' }
   } 
   ,
   devtool: 'inline-source-map',
@@ -32,7 +33,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions:['.tsx', ',ts', '.js']
+    extensions:['.tsx', '.ts', '.js']
   },
   // ,
   // output: {
