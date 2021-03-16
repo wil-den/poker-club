@@ -6,7 +6,10 @@
   "scripts": {
     "client": "live-server public/",
     "build-all": "webpack",
-    "server" : "node dist/server.bundle.js"
+    "server" : "node dist/server.bundle.js",
+    "game" : "node dist/game.bundle.js",
+    "club" : "node dist/club.bundle.js",
+    "player" : "node dist/player.bundle.js"
   },
   "repository": {
     "type": "git",
