@@ -1,3 +1,3 @@
-import Game from '../core/game/game';
+import Club from '../core/club/club';
 
-var new_game = new Game();
+var club = new Club();
